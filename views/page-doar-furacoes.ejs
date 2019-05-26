@@ -53,7 +53,7 @@
         <header class="container text-center my-4">
             <h1 class="subtitulo">Ajude as Vítmias dos Furacões</h1>
             <div class="d-flex justify-content-center my-5">
-                <img class="imagem-ong__prizorgi" src="./img/brumadinho.jpg" alt="Logo da Prizorgi">
+                <a href=""><img class="imagem-ong__prizorgi" src="./img/brumadinho.jpg" alt="Logo da Prizorgi">
             </div>
         </header>
         <section class="container">
@@ -76,10 +76,11 @@
             </ul>
             <p class="text-center font-weight-bold my-3">Ajude as vítimas de Brumadinho a reconstruirem suas vidas!</p>
             
-
-            <div class="button__form d-flex justify-content-center my-5">
-                <button class="btn btn-teste btn-outline-secondary btn__prizorgi text-white font-weight-bold">Doar</button>
-            </div>
+            <form action="/pay" method="post">
+                <div class="button__form d-flex justify-content-center my-5">
+                    <button type="submit" class="btn btn-teste btn-outline-secondary btn__prizorgi text-white font-weight-bold">R$10</button>
+                </div>
+        </form>
         </section>
     </body>
     <footer class="footer__prizorgi">
